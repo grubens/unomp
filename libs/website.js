@@ -10,8 +10,8 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var compress = require('compression');
 
-var Stratum = require('merged-pooler');
-var util = require('merged-pooler/lib/util.js');
+var Stratum = require('../libs/node-merged-pool/lib');
+var util = require('../libs/node-merged-pool/lib/util');
 
 var api = require('./api.js');
 
