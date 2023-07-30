@@ -1,4 +1,4 @@
-var Stratum = require('../libs/node-merged-pool/lib-pooler');
+var Stratum = require('../libs/node-merged-pool/lib');
 var redis   = require('redis');
 var net     = require('net');
 
